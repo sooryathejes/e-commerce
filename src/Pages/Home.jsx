@@ -13,7 +13,7 @@ const Home = () => {
       <BestSeller/>
       <OurPolicy/>
       <NewsLetterBox/>
-    </div>
+    </div> 
   ) 
 } 
 export default Home

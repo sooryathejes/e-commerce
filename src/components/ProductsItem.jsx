@@ -16,5 +16,4 @@ const ProductsItem = ({id,image,name,price}) => {
   )
 }
 
-export default ProductsItem
- 
+export default ProductsItem  

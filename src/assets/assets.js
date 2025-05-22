@@ -561,7 +561,7 @@ export const products = [
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
-        date: 1716654145448,
+        date: 1716654145448, 
         bestseller: false
     },
     {
