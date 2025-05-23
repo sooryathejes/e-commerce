@@ -55,12 +55,12 @@ const Collection = () => {
   const sortProduct = () => {
     let fpCopy = filterProdects.slice()
 
-    switch(sortType){
+    switch(sortType){ 
       case 'low-high':
         setFilterProducts(fpCopy.sort((a,b) => (a.price - b.price)))
         break;
       case 'high-low' :
-        setFilterProducts(fpCopy.sort((a,b) => (b.price - a.price)))
+        setFilterProducts(fpCopy.sort((a,b) => (b.price - a.price))) 
 
       default:
         applyFilter();
@@ -130,7 +130,7 @@ const Collection = () => {
           }
         </div>
       </div>
-    </div>
+    </div> 
   )
 }
 export default Collection; 
